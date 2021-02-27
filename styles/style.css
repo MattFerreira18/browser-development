@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: #282a36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #44475a;
+  height: 34.4rem;
+  width: 51.25rem;
+  margin: 10% 0 0 0;
+  padding: 5rem 6.25rem;
+  border-radius: 1.12rem;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+label {
+  font-size: 3.4rem;
+  width: 100%;
+  color: #fff;
+}
+
+input {
+  background: #f1f1eb;
+  color: #72768b;
+  font-size: 1.5rem;
+  padding: 1rem;
+  height: 5.6rem;
+  width: 100%;
+  border-radius: 0.8rem;
+  margin: 2.18rem 0 5rem 0;
+  transition: 300ms;
+}
+
+button {
+  background: #67e480;
+  font-size: 2.2rem;
+  font-weight: 500;
+  border-radius: 1.12rem;
+  color: #fff;
+  height: 7rem;
+  width: 17.5rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+input:focus-within {
+  box-shadow: 0px 0px 0px 4px #67e480 inset;
+}
+
+button:hover {
+  background: #46a158;
+}
+
+@media (max-width: 850px) {
+  #container {
+    margin: 10rem 0 0 0;
+    height: 25rem;
+    width: 35rem;
+    padding: 4rem 6rem;
+  }
+
+  label {
+    font-size: 2.2rem;
+  }
+
+  input {
+    height: 4rem;
+    margin: 2.18rem 0 3rem 0;
+  }
+
+  button {
+    height: 6rem;
+    width: 12rem;
+    font-size: 1.6rem;
+  }
+}
