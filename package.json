@@ -1,0 +1,13 @@
+{
+  "name": "development-browser",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron ."
+  },
+  "dependencies": {
+    "electron": "^11.3.0",
+    "electron-builder": "^22.9.1"
+  }
+}
